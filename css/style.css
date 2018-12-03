@@ -1,32 +1,47 @@
 body {
-    font-family: Georgia, Times, Times New Roman, serif;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
+    color: #777777;
     line-height: 150%;
     margin: auto;
     background-image: url("../images/round.png"); 
 }
-
+a {
+    color: #777777;
+}
+hr {
+    height: 2px;
+    background: #c2bdbd;
+}
 .clearfix::after {
     content: "";
     display: block;
     clear:both;
     }
 header {
+    position: relative;
     height: 50px;
     background: #ebebee;
     padding: 20px 20px;
     text-align: right;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     margin: 0px 0px 40px 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #c2bdbd;
+
 }
 .box1 {
-    width: 150px;
-    height: 50px;
+    position: absolute;
+    width: 250px;
+    height: 55px;
+    color: #ebebee;
     background: #4aaaa5;
     text-align: center;
-    padding: 10px 10px 10px 10px;
-    left: 400px;
-    top: 0px;
-    float: left;
+    font-size: 40px;
+    padding: 30px 10px 10px 10px;
+    left: 240px;
+    top: -45px;
 }
 .me {
     max-height: 250px;
@@ -40,4 +55,9 @@ section {
     overflow: hidden;
     background: #ebebee;
     padding: 10px 10px;
+    box-shadow: 5px 10px #c2bdbd;
+}
+h1 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
