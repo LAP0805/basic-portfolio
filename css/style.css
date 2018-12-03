@@ -22,7 +22,7 @@ header {
     position: relative;
     height: 50px;
     background: #ebebee;
-    padding: 20px 20px;
+    padding: 20px 300px 20px 20px;
     text-align: right;
     font-family: 'Georgia', Times, Times New Roman, serif;
     margin: 0px 0px 40px 0px;
@@ -56,8 +56,22 @@ section {
     background: #ebebee;
     padding: 10px 10px;
     box-shadow: 5px 10px #c2bdbd;
+    padding: 20px 20px;
 }
 h1 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
+.button1 {
+    background: #4aaaa5;
+    color: #ebebee;
+    padding: 10px 20px 10px 20px;
+}
+input {
+    width: 100%;
+}
+.bigform
+    { 
+    height: 200px;
+
+    }
