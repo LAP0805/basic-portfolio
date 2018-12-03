@@ -1,0 +1,43 @@
+body {
+    font-family: Georgia, Times, Times New Roman, serif;
+    font-size: 18px;
+    line-height: 150%;
+    margin: auto;
+    background-image: url("../images/round.png"); 
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear:both;
+    }
+header {
+    height: 50px;
+    background: #ebebee;
+    padding: 20px 20px;
+    text-align: right;
+    margin: 0px 0px 40px 0px;
+}
+.box1 {
+    width: 150px;
+    height: 50px;
+    background: #4aaaa5;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    left: 400px;
+    top: 0px;
+    float: left;
+}
+.me {
+    max-height: 250px;
+    max-width: 250px;
+    float: left;
+    margin: 10px 10px;
+}
+section {
+    margin: auto;
+    width: 960px;
+    overflow: hidden;
+    background: #ebebee;
+    padding: 10px 10px;
+}
