@@ -22,8 +22,8 @@ header {
     position: relative;
     height: 50px;
     background: #ebebee;
-    padding: 20px 300px 20px 20px;
-    text-align: right;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
     margin: 0px 0px 40px 0px;
     border-bottom-style: solid;
@@ -31,17 +31,26 @@ header {
     border-bottom-color: #c2bdbd;
 
 }
+nav {
+    width: 100%;
+    position: absolute;
+    float: left;
+    right: 0%;
+    padding: 0% 18% 0% 0%;
+    text-align: right;
+}
 .box1 {
     position: absolute;
     width: 250px;
-    height: 55px;
+    height: 200%;
     color: #ebebee;
     background: #4aaaa5;
     text-align: center;
     font-size: 40px;
-    padding: 30px 10px 10px 10px;
-    left: 240px;
-    top: -45px;
+    left: 28%;
+    top: -230%;
+    padding: 20px 20px;
+   
 }
 .me {
     max-height: 250px;
@@ -50,9 +59,9 @@ header {
     margin: 10px 10px;
 }
 section {
+    position: relative;
     margin: auto;
     width: 960px;
-    overflow: hidden;
     background: #ebebee;
     padding: 10px 10px;
     box-shadow: 5px 10px #c2bdbd;
@@ -62,10 +71,26 @@ h1 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
+footer {
+    position: fixed;
+    bottom: 0%;
+    margin: 10px 0px 0px 0px;
+    overflow: hidden;
+    color: #ebebee;
+    text-align: center;
+    font-size: 10px;
+    height: 50px;
+    width: 100%;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #4aaaa5;
+    background:#777777;
+    clear: both;
+}
 .button1 {
     background: #4aaaa5;
     color: #ebebee;
-    padding: 10px 20px 10px 20px;
+    padding: 20px 20px 20px 20px;
 }
 input {
     width: 100%;
@@ -75,3 +100,66 @@ input {
     height: 200px;
 
     }
+.portpics {
+    margin: 10px 10px;
+}
+.portboxheadphones {
+    position:absolute;
+    left: -10px;
+    top: 160px;
+    width: 200px;
+    height: 25px;
+    background: #4aaaa5;
+    color: #ebebee;
+    font-size: 14px;
+    text-align: center;
+
+
+}
+.portboxtablet {
+    position:absolute;
+    left: 665px;
+    top: 160px;
+    width: 200px;
+    height: 25px;
+    background: #4aaaa5;
+    color: #ebebee;
+    text-align: center;
+    font-size: 14px;
+}
+.portboxscreen {
+    position:absolute;
+    left: 440px;
+    top: 160px;
+    width: 200px;
+    height: 25px;
+    background: #4aaaa5;
+    color: #ebebee;
+    text-align: center;
+    font-size: 14px;
+}
+.portboxgame {
+    position:absolute;
+    left: 215px;
+    top: 160px;
+    width: 200px;
+    height: 25px;
+    background: #4aaaa5;
+    color: #ebebee;
+    text-align: center;
+    font-size: 14px;
+}
+.portboxhands {
+    position:absolute;
+    left: -10px;
+    top: 290px;
+    width: 200px;
+    height: 25px;
+    background: #4aaaa5;
+    color: #ebebee;
+    text-align: center;
+    font-size: 14px;
+}
+.portlinks {
+    color: #ebebee;
+}
