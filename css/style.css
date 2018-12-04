@@ -8,6 +8,7 @@ body {
 }
 a {
     color: #777777;
+    text-decoration: none;
 }
 hr {
     height: 2px;
@@ -39,7 +40,7 @@ nav {
     padding: 0% 18% 0% 0%;
     text-align: right;
 }
-.box1 {
+ .box1 {
     position: absolute;
     width: 250px;
     height: 200%;
@@ -59,13 +60,13 @@ nav {
     margin: 10px 10px;
 }
 section {
-    position: relative;
     margin: auto;
     width: 960px;
     background: #ebebee;
     padding: 10px 10px;
     box-shadow: 5px 10px #c2bdbd;
     padding: 20px 20px;
+    overflow: hidden;
 }
 h1 {
     color: #4aaaa5;
@@ -100,66 +101,25 @@ input {
     height: 200px;
 
     }
-.portpics {
+div.relative {
+    position: relative;
     margin: 10px 10px;
+    overflow: hidden;
+    float:left;
 }
-.portboxheadphones {
-    position:absolute;
-    left: -10px;
-    top: 160px;
-    width: 200px;
-    height: 25px;
+.portpics {
+    width: 400px;
+    height:200px;
+}
+.relative h3 {
+    color: #ebebee;
+    position: absolute;
+    bottom:5%;
+    padding: 10px 0px 0px 0px;
+    text-align:center;
     background: #4aaaa5;
-    color: #ebebee;
-    font-size: 14px;
-    text-align: center;
-
-
-}
-.portboxtablet {
-    position:absolute;
-    left: 665px;
-    top: 160px;
-    width: 200px;
-    height: 25px;
-    background: #4aaaa5;
-    color: #ebebee;
-    text-align: center;
-    font-size: 14px;
-}
-.portboxscreen {
-    position:absolute;
-    left: 440px;
-    top: 160px;
-    width: 200px;
-    height: 25px;
-    background: #4aaaa5;
-    color: #ebebee;
-    text-align: center;
-    font-size: 14px;
-}
-.portboxgame {
-    position:absolute;
-    left: 215px;
-    top: 160px;
-    width: 200px;
-    height: 25px;
-    background: #4aaaa5;
-    color: #ebebee;
-    text-align: center;
-    font-size: 14px;
-}
-.portboxhands {
-    position:absolute;
-    left: -10px;
-    top: 290px;
-    width: 200px;
-    height: 25px;
-    background: #4aaaa5;
-    color: #ebebee;
-    text-align: center;
-    font-size: 14px;
-}
-.portlinks {
-    color: #ebebee;
+    width: 100%;
+    height: 20%;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
 }
