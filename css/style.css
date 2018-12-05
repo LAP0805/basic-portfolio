@@ -39,6 +39,9 @@ nav {
     padding: 0% 18% 0% 0%;
     text-align: right;
 }
+nav a{
+    text-decoration: none;
+}
  .box1 {
     position: absolute;
     width: 250px;
@@ -115,7 +118,7 @@ div.relative {
 .relative h2 {
     color: #ebebee;
     position: absolute;
-    bottom:5%;
+    bottom:10%;
     padding: 10px 0px 0px 0px;
     text-align:center;
     background: #4aaaa5;
