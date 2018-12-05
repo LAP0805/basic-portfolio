@@ -47,8 +47,8 @@ nav {
     background: #4aaaa5;
     text-align: center;
     font-size: 40px;
-    left: 28%;
-    top: -230%;
+    left: 30%;
+    top: -88%;
     padding: 20px 20px;
    
 }
@@ -66,10 +66,12 @@ section {
     box-shadow: 5px 10px #c2bdbd;
     padding: 20px 20px;
     overflow: hidden;
+    font-size: 14px;
 }
 h1 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
 }
 footer {
     position: fixed;
