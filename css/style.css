@@ -115,6 +115,10 @@ div.relative {
     width: 400px;
     height:200px;
 }
+.portpics:hover {
+    opacity: 0.8;
+
+}
 .relative h2 {
     color: #ebebee;
     position: absolute;
