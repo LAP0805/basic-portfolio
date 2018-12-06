@@ -22,7 +22,7 @@ header {
     position: relative;
     height: 50px;
     background: #ebebee;
-    padding: 20px 20px 20px 20px;
+    padding: 30px 20px 20px 20px;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
     margin: 0px 0px 40px 0px;
@@ -45,14 +45,14 @@ nav a{
  .box1 {
     position: absolute;
     width: 250px;
-    height: 200%;
+    height: 155%;
     color: #ebebee;
     background: #4aaaa5;
     text-align: center;
     font-size: 40px;
     left: 30%;
-    top: -88%;
-    padding: 20px 20px;
+    top: -115%;
+    padding: 30px 20px;
    
 }
 .me {
